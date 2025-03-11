@@ -8,7 +8,7 @@ double PHYsiCS_AVE(){
         scanf("%d",&asS);
         printf("ENter the scores for course work\n");
         scanf("%d",&CW);
-        printf("ENter the scores for mid term\n");  
+        printf("ENter the scores for mid term\n");
         scanf("%d",&midT);
         printf("ENter the scores for end of term\n");
         scanf("%d",&EOT);
@@ -19,28 +19,28 @@ return avERage;
 }
 double maTH_AVE(){
      int ass, cW, MidT, EoT;
-      printf("======MATHEMATICS=======\n");
+      printf("\n======MATHEMATICS=======\n");
     printf("ENter the scores for assignments\n");
     scanf("%d",&ass);
     printf("ENter the scores for course work\n");
     scanf("%d",&cW);
-    printf("ENter the scores for mid term\n");  
+    printf("ENter the scores for mid term\n");
     scanf("%d",&MidT);
     printf("ENter the scores for end of term\n");
     scanf("%d",&EoT);
     int SUM = ass+cW+MidT+EoT;
     double avERage= (double)SUM/4;
-    
+
 return avERage;
 }
 double CHem_AVE(){
     int AsS, Cw, miDT, EOt;
-    printf("======CHEMISTRY=======\n ");
+    printf("\n======CHEMISTRY=======\n ");
     printf("ENter the scores for assignments\n");
     scanf("%d",&AsS);
     printf("ENter the scores for course work\n");
     scanf("%d",&Cw);
-    printf("ENter the scores for mid term\n");  
+    printf("ENter the scores for mid term\n");
     scanf("%d",&miDT);
     printf("ENter the scores for end of term\n");
     scanf("%d",&EOt);
